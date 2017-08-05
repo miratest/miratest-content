@@ -8,7 +8,7 @@ language: English
 
 source: http://sallar.me/
 
-url: https://127.0.0.1:5000/sallaren/
+url: https://miratest.github.io/sallaren/
 root: /sallaren/
 
 logo: /sallaren/img/sallar.png

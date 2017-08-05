@@ -6,7 +6,7 @@ name: مرده
 author: امیر مومنیان
 email: nainemom@gmail.com
 
-url: https://127.0.0.1:5000/morde
+url: https://miratest.github.io/morde
 root: /morde/
 
 static: /morde/static/
