@@ -1,0 +1,59 @@
+
+title: مهدی صادقی
+motto: در مورد نرم‌افزار و ایده‌هایم
+description: سکوی انتشار مطالبی در مورد دانش تولید نرم‌افزار و ایده‌ها و علایق شخصی‌ام.
+
+long_description: >
+  بچه که بودیم همیشه برای بازی خونه می‌ساختیم. حالا هم نمونه‌اش رو در وب ساختم. اینجا سکوی انتشار مطالبی در مورد دانش تولید نرم‌افزار و ایده‌ها و علایق شخصی‌ام است، بویژه راه‌حل‌های مهندسی که باعث رشد و پیشرفتم شده است و می‌تواند مورد استفاده دیگران هم قرار بگیرد.
+keywords: کامپیوتر، برنامه‌نویسی، پایتون، علم
+copyright: Commons Attribution 4.0 International
+
+source: http://mehdix.ir/
+
+author: Mehdi Sadeghi
+email: sadeghi@mehdix.org
+
+url: https://127.0.0.1:5000/mehdix
+root: /mehdix
+
+
+favicon: "assets/img/favicon.png"
+
+logo: /mehdix/assets/img/me.png
+cover: /mehdix/assets/img/background.gif
+author_image: /mehdix/assets/img/me.png
+icon: /mehdix/assets/img/favicon.ico
+align: rtl
+lang: fa
+
+static: /mehdix/assets
+imageurl: /mehdix/assets/pimg
+
+permalink: :title.html
+
+default_markup: markdown
+
+post_num: 5
+archive_post_num: all
+
+plugins:
+ - Jdate
+
+lists:
+ - category
+ - tags
+
+social:
+ -  icon: twitter
+    url: https://twitter.com/mehdisadeghii
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+ -  icon: github
+    url: https://github.com/mehdisadeghi
+    desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:

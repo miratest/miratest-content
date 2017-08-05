@@ -1,0 +1,35 @@
+
+title: سالار کابلی
+description: من سالار کابلی هستم، توسعه‌دهنده نرم‌افزار در کیاسکد.
+author: سالار کابلی
+language: Farsi
+
+url: //sallarblog/
+root: /sallarblog/
+
+logo: /sallarblog/img/sallar.png
+icon: /sallarblog/img/logo.png
+align: rtl
+lang: fa
+
+static: /sallarblog/static/
+imageurl: /sallarblog/img/
+
+## default post permanent link
+permalink: :year/:month/:day/:title/
+
+default_markup: markdown
+
+post_num: 10
+archive_post_num: 20
+
+lists:
+ - categories
+ - jdate
+
+namespace:
+
+plugins:
+ - Jdate
+
+disqus_shortname: sallar

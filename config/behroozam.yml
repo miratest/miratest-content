@@ -1,0 +1,71 @@
+
+title: بهروزم
+description: manga / anime / gnu linux / networking
+
+source: http://behroozam.com/
+
+name: 'behroozam'
+author: 'behrooz hasanbeygi'
+email: b.hasanbg[at]gmail[dot]com
+
+url: https://127.0.0.1:5000/behroozam/
+root: /behroozam/
+
+logo: /behroozam/assets/images/logo2.jpg
+cover: /behroozam/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg
+author_image: /behroozam/assets/images/behroozam.jpg
+icon: /behroozam/assets/images/favicon.ico
+align: rtl
+lang: fa
+
+static: /behroozam/assets
+imageurl: /behroozam/assets/article_images
+
+permalink: :year/:month/:day/:title/
+
+default_markup: markdown
+
+post_num: 5
+archive_post_num: all
+
+plugins:
+ - Jdate
+
+lists:
+ - category
+ - jdate
+
+namespace:
+  ویژه: featured
+  توسعه: development
+  زی کانف: zconf
+  امنیت: security
+  آزاد و متن باز: foss
+  زندگی: life
+  کتاب: book
+  انیمه: anime
+  آینده نگر: Futurist
+
+disqus_shortname: behroozam
+
+social:
+ -  icon: twitter
+    url: https://twitter.com/b3hroozam
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+ -  icon: github
+    url: https://github.com/behroozam
+    desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+ -  icon: instagram
+    url: https://instagram.com/behroozam
+    desc: Follow me
+    share_url:
+    share_title:
+    share_link:

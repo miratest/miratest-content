@@ -1,0 +1,34 @@
+
+
+title: Sallar Kaboli
+subtitle:
+description: Sallar Kaboli / Exploring JavaScript & Things.
+author: Sallar Kaboli
+language: English
+
+source: http://sallar.me/
+
+url: https://127.0.0.1:5000/sallaren/
+root: /sallaren/
+
+logo: /sallaren/img/sallar.png
+icon: /sallaren/img/logo.png
+align: ltr
+lang: en
+
+static: /sallaren/static/
+imageurl: /sallaren/img/
+
+## default post permanent link
+permalink: :year/:month/:day/:title/
+
+default_markup: markdown
+
+post_num: 10
+archive_post_num: 20
+
+lists:
+ - tags
+ - date
+
+disqus_shortname: sallar

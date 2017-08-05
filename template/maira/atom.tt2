@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ TITLE }}</title>
+    <description>{{ DESCRIPTION }}</description>
+    <link>{{ URL }}</link>
+    <atom:link href="{{ URL }}/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>{{ Build.date }}</pubDate>
+    <lastBuildDate>{{ Build.date }}</lastBuildDate>
+    <generator>mira</generator>
+    {{ FOREACH post IN POSTS }}
+        <item>
+          <title>{{ post.title }}</title>
+          <description>{{ post.body.more | html }}</description>
+          <pubDate>{{ post.date }}</pubDate>
+          <link>{{ post.url }}</link>
+          <guid isPermaLink="true">{{ post.url }}</guid>
+	{{- FOREACH list IN SITE.lists -}}
+		{{ IF post.$list }}
+		<{{ list }}>
+		   {{- FOREACH arch IN post.$list.values -}}
+			{{- arch.name -}}
+			{{- IF (loop.index != loop.max) -}},{{- END -}}
+		   {{- END -}}
+		</{{ list }}>
+		{{ END }}
+	{{- END -}}
+        </item>
+    {{ END }}
+  </channel>
+</rss>

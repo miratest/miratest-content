@@ -1,0 +1,37 @@
+title: آموزش لینوکس
+description: مطالبی که روزانه در مورد لینوکس یاد میگیریم و دوست داریم با دیگران به اشتراک بگذاریم
+
+url: //linuxiha/
+root: /linuxiha/
+static: /linux/static
+imageurl: /linux/static/images
+
+permalink: :author/:title/
+post_num: 10
+archive_post_num: all
+
+lists:
+ - categories
+ - tags
+ - author
+ - jdate
+
+plugins:
+ - Jdate
+
+align: rtl
+lang: fa
+
+authors:
+ -
+  name: farbodgame
+  desc: توضیحاتی در مورد کاربر
+  twitter: twitter.com/TWITTER_USER_NAME
+ -
+  name: MrNull
+  desc: توضیحاتی در مورد کاربر
+  twitter: twitter.com/TWITTER_USER_NAME
+ -
+  name: rmasoumvand
+  desc: توضیحاتی در مورد کاربر
+  twitter: twitter.com/TWITTER_USER_NAME
