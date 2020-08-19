@@ -1637,7 +1637,7 @@ address.com/linux/ ...
 &lt;p&gt;حالا در هر کدام از نوشته‌های این سایت اگر از تگ {{ img }} استفاده کنیم، میرا دنبال تصاویر در این مسیر میگردد. &lt;br /&gt;
 نحوه‌ی استفاده از {{ img }} به این شکل است:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{{ img image/address/pic.jpg [alt] [title] }}
+&lt;pre&gt;&lt;code&gt;\{{ img image/address/pic.jpg [alt] [title] }}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;اولین نوشته در وبلاگ فارسی را به یاد دارید؟&lt;/p&gt;
@@ -1658,7 +1658,7 @@ image: /blog/assets/article_images/hello.jpg
 سلام دنیا  
 این اولین نوشته من است که برای تست کردن نوشته شده.
 
-{{ img /future/sky.jpg [image alt] [pic title] }}
+\{{ img /future/sky.jpg [image alt] [pic title] }}
 
 این یک متن آزمایشی است.
 &lt;/code&gt;&lt;/pre&gt;

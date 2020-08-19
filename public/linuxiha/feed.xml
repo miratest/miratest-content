@@ -12,19 +12,19 @@
         <item>
           <title>معرفی پروژه بانک vimrc</title>
           <description>&lt;a name=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h3&gt;&lt;code&gt;vim&lt;/code&gt; چی هست؟&lt;/h3&gt;
+&lt;h3 id=&quot;_vim__چی_هست_&quot;&gt;&lt;code&gt;vim&lt;/code&gt; چی هست؟&lt;/h3&gt;
 
 &lt;p&gt;شما شاید تاحالا با &lt;code&gt;vim&lt;/code&gt; کار کردین، یه ادیتور متن‌باز با قابلیت شخصی‌سازی بالا! البته پیشفرضش فرقی با چیزی مثل &lt;code&gt;notepad&lt;/code&gt; تو ویندوز نداره؛ ولی با کانفیگ درست و بجا این پتانسیل رو داره که به یه ادیتور یا حتی &lt;code&gt;IDE&lt;/code&gt; حرفه تبدیل شه. با این حال، کانفیگ خود vim هم حتی با وجود پلاگین‌هاش دردسرهایی داره و طول میکشه، ولی آیا نمی‌ارزه که یه روز یا حتی ۱ هفته وقت بزاریم و در آخر به یه ادیتور کاملا شخصی‌سازی شده برسیم؟&lt;/p&gt;
 
-&lt;h3&gt;&lt;code&gt;vimrc&lt;/code&gt; چیه؟&lt;/h3&gt;
+&lt;h3 id=&quot;_vimrc__چیه_&quot;&gt;&lt;code&gt;vimrc&lt;/code&gt; چیه؟&lt;/h3&gt;
 
 &lt;p&gt;هر برنامه‌ای معمولا تنظیماتشو تو فایل میریزه و وقتی که باز میشه، تنظیماتشو از اون فایل میخونه! &lt;code&gt;vim&lt;/code&gt; هم یه فایل داره که یسری تنظیمات اولیه (مثل استفاده از موس، کلیپ‌بورد، اندازه تب و ...) با اون انجام میشن! اسم این فایل &lt;code&gt;vimrc&lt;/code&gt; هست و تو مک و لینوکس تو شاخه &lt;code&gt;~&lt;/code&gt; یا &lt;code&gt;home&lt;/code&gt; هر کاربر با نام &lt;code&gt;.vimrc&lt;/code&gt; قرار داره! تو ویندوزم تو پوشه &lt;code&gt;vim&lt;/code&gt; یه فایلی به اسم &lt;code&gt;vimrc&lt;/code&gt; هست.&lt;/p&gt;
 
-&lt;h3&gt;هدف پروژه &lt;code&gt;vimrc-bank&lt;/code&gt; چیه؟&lt;/h3&gt;
+&lt;h3 id=&quot;هدف_پروژه__vimrc-bank__چیه_&quot;&gt;هدف پروژه &lt;code&gt;vimrc-bank&lt;/code&gt; چیه؟&lt;/h3&gt;
 
 &lt;p&gt;خب حالا میرسیم به بحث هدف! تو قسمت اول گفتم که کانفیگ &lt;code&gt;vim&lt;/code&gt; خیلی سخته! هدف پروژه هم راحت کردن شروع به کار با &lt;code&gt;vim&lt;/code&gt; برای افراد مبتدیه! شاید این با خصوصیت اینکه &lt;code&gt;vim&lt;/code&gt; ادیتور شخصی‌سازی شده «خودتون» هست در تناقض باشه، ولی شروع رو برای شما راحت میکنه، بعدش میتونین همون فایلی که باهاش شروع کردین رو ادیت کنین و به یه چیز بهتر برای خودتون برسین! پس اگه میخواین مردم به &lt;code&gt;vim&lt;/code&gt; مهاجرت کنن، میتونین کانفیگاتونو با این پروژه شیر کنین!&lt;/p&gt;
 
-&lt;h3&gt;چجوری به پروژه کمک کنم؟&lt;/h3&gt;
+&lt;h3 id=&quot;چجوری_به_پروژه_کمک_کنم_&quot;&gt;چجوری به پروژه کمک کنم؟&lt;/h3&gt;
 
 &lt;p&gt;خب این بخش رو قبلا تو &lt;a href=&quot;https://hexlinux.ir/2016/10/06/vimrc-bank/&quot;&gt;بلاگ هگز&lt;/a&gt; توضیح دادم پس نیازی نیست توضیح بدین! در پایان بگم که حتما اون مطلب هم بخونین! یکمی بیشتر در مورد پروژه بهتون اطلاعات میده!
 یه شیوه کمک دیگه هم اینه که یه سایت برای پروژه بنویسین که از گیت‌هاب به یه سایت تمیزتر مهاجرت کنه پروژه!&lt;/p&gt;
@@ -269,10 +269,8 @@ Btrfs v3.17
 
 &lt;p&gt;که پس از اجرای دستور فوق خروجی به شکل زیر خواهد بود.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Done, had to relocate 6 out of 6 chunks
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;برای حذف یک دیسک از فایل سیستم دستور زیر را وارد می‌کنیم.&lt;/p&gt;
+&lt;p&gt;Done, had to relocate 6 out of 6 chunks
+برای حذف یک دیسک از فایل سیستم دستور زیر را وارد می‌کنیم.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;btrfs device delete /dev/sdc /mnt
 &lt;/code&gt;&lt;/pre&gt;
@@ -383,9 +381,9 @@ Btrfs v3.17
           <description>&lt;a name=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;همونطور که توی تصویر زیر می‌بینین، یه دسکتاپ گنوم ساده که معمولا پیش‌فرض رو لینوکس‌ها نصبه، می‌تونه چقدر عوض بشه! البته این چیزی که تو عکس می‌بینین خیلی کم روش تغییر دادیم!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/linux/static/images/gnome-1-final.jpg&quot; alt=&quot;gnome tweak tool&quot; title=&quot;gnome tweak tool&quot; &gt;&lt;/p&gt;
+&lt;p&gt;{{ img /gnome-1-final.jpg [gnome tweak tool] }}&lt;/p&gt;
 
-&lt;h3&gt;پیش‌نیاز ها&lt;/h3&gt;
+&lt;h3 id=&quot;پیش‌نیاز_ها&quot;&gt;پیش‌نیاز ها&lt;/h3&gt;
 
 &lt;p&gt;خوب مثل همیشه، اول پیش‌نیاز هارو می‌گم.&lt;/p&gt;
 
@@ -399,7 +397,7 @@ Btrfs v3.17
 
 &lt;p&gt;با همین اینا میشه گنوم رو شخصی‌سازی کرد.&lt;/p&gt;
 
-&lt;h3&gt;مراحل انجام کار&lt;/h3&gt;
+&lt;h3 id=&quot;مراحل_انجام_کار&quot;&gt;مراحل انجام کار&lt;/h3&gt;
 
 &lt;p&gt;خب اول از همه دسکتاپ رو عوض می‌کنیم. پیشنهاد من همینیه که تو عکس بالا هست و می‌تونید از پایین پست دانلود کنین.&lt;/p&gt;
 
@@ -424,15 +422,15 @@ Btrfs v3.17
 
 &lt;p&gt;این چیزایی که انجام دادیم، فقط یه بخشی از امکانات شخصی سازی لینوکس بود! در پست‌های آینده، بیشتر در مورد لینوکس توضیح می‌دم.&lt;/p&gt;
 
-&lt;h3&gt;بکگراندهای پیشنهادی&lt;/h3&gt;
+&lt;h3 id=&quot;بکگراندهای_پیشنهادی&quot;&gt;بکگراندهای پیشنهادی&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/linux/static/images/gnome-1-bg1.jpg&quot; alt=&quot;بگکراند پیشنهادی ۱&quot; title=&quot;بگکراند پیشنهادی ۱&quot; &gt;&lt;/p&gt;
+&lt;p&gt;{{ img /gnome-1-bg1.jpg [بگکراند پیشنهادی ۱] }}&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/linux/static/images/gnome-1-bg2.jpg&quot; alt=&quot;بگکراند پیشنهادی ۲&quot; title=&quot;بگکراند پیشنهادی ۲&quot; &gt;&lt;/p&gt;
+&lt;p&gt;{{ img /gnome-1-bg2.jpg [بگکراند پیشنهادی ۲] }}&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/linux/static/images/gnome-1-bg3.jpg&quot; alt=&quot;بگکراند پیشنهادی ۳&quot; title=&quot;بگکراند پیشنهادی ۳&quot; &gt;&lt;/p&gt;
+&lt;p&gt;{{ img /gnome-1-bg3.jpg [بگکراند پیشنهادی ۳] }}&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/linux/static/images/gnome-1-bg4.jpg&quot; alt=&quot;بگکراند پیشنهادی ۴&quot; title=&quot;بگکراند پیشنهادی ۴&quot; &gt;&lt;/p&gt;
+&lt;p&gt;{{ img /gnome-1-bg4.jpg [بگکراند پیشنهادی ۴] }}&lt;/p&gt;
 
 &lt;p&gt;این پست برای اولین بار در &lt;a href=&quot;http://h4x.ir/3&quot;&gt;هگز - شخصی‌سازی دسکتاپ گنوم&lt;/a&gt; نوشته شده‌است!&lt;/p&gt;</description>
           <pubDate>2016-08-18</pubDate>
@@ -638,14 +636,14 @@ vgextend vg_server /dev/sdd
           <description>&lt;a name=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;RAID مخفف Redundant Array of Independent Disks مکانیزمی است که در آن مجموعه‌ای از دیسک‌ها به‌صورت زنجیره‌ای به هم متصل می‌شوند و موجب افزایش کارایی و دسترسی‌پذیری به داده‌ها و همچنین تحمل خطاپذیری و بازیابی داده‌های ذخیره شده می‌شود.&lt;/p&gt;
 
-&lt;h2&gt;انواع RAID&lt;/h2&gt;
+&lt;h2 id=&quot;انواع_raid&quot;&gt;انواع RAID&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Hardware RAID: که به‌صورت سخت‌افزاری و مستقل از سیستم‌عامل عمل می‌کند و تمامی عملیات توسط RAID Controller سیستم انجام می‌شود.&lt;/li&gt;
 &lt;li&gt;Software RAID: که توسط سیستم‌عامل و نرم‌افزار پیکربندی و کنترل می‌شود.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;سطوح RIAD&lt;/h2&gt;
+&lt;h2 id=&quot;سطوح_riad&quot;&gt;سطوح RIAD&lt;/h2&gt;
 
 &lt;p&gt;RAID می‌تواند به‌صورت‌های مختلفی پیاده‌سازی شود که در ادامه به معرفی کاربردی‌ترین آن‌ها می‌پردازیم.&lt;/p&gt;
 
@@ -658,7 +656,7 @@ vgextend vg_server /dev/sdd
 
 &lt;p&gt;در این آموزش به نصب و راه‌اندازی RAID نرم‌افزاری در لینوکس خواهیم پرداخت.&lt;/p&gt;
 
-&lt;h2&gt;نصب و راه‌اندازی RIAD در لینوکس&lt;/h2&gt;
+&lt;h2 id=&quot;نصب_و_راه‌اندازی_riad_در_لینوکس&quot;&gt;نصب و راه‌اندازی RIAD در لینوکس&lt;/h2&gt;
 
 &lt;p&gt;ابتدا می‌بایست نرم‌افزار mdadm را نصب کنیم.&lt;/p&gt;
 
@@ -685,7 +683,7 @@ vgextend vg_server /dev/sdd
 &lt;li&gt;C- یا create--: یک array جدید ایجاد می‌کند&lt;/li&gt;
 &lt;li&gt;A- یا assemble--: اجزای یک array از پیش ساخته را به هم ملحق می‌کند.&lt;/li&gt;
 &lt;li&gt;‌B- یا build--: یک array قدیمی بدون superblock ایجاد می‌کند.&lt;/li&gt;
-&lt;li&gt;F- یا follow , --monitor--: برای مانیتور کردن یک یا چند array استفاده می‌شود.&lt;/li&gt;
+&lt;li&gt;F- یا follow , &lt;small&gt;monitor&lt;/small&gt;: برای مانیتور کردن یک یا چند array استفاده می‌شود.&lt;/li&gt;
 &lt;li&gt;G- یا grow--: اندازه یک array فعال را تغییر می‌دهد&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;manage--: برای انجام کارهایی چون اضافه نمودن دیسک جدید و یا حدف نمودن دیسک های معیوب از array به‌کار می‌رود.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;raiddevice: محل و نام Array را مشخص می‌کند. برای مثال dev/md0/&lt;/p&gt;&lt;/li&gt;
@@ -832,7 +830,7 @@ unused devices: &amp;lt;none&amp;gt;
           <description>&lt;a name=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;در این مطلب قصد داریم دستورات systemctl را آموزش بدهیم که ابزار اصلی برای کنترل سرویس‌ها و init است. در ادامه نگاهی می‌اندازیم که چگونه سرویس‌ها را مدیریت کنیم و در نهایت وضعیتشان را بررسی کنیم.&lt;/p&gt;
 
-&lt;h2&gt;شروع و متوقف کردن سرویس‌ها&lt;/h2&gt;
+&lt;h2 id=&quot;شروع_و_متوقف_کردن_سرویس‌ها&quot;&gt;شروع و متوقف کردن سرویس‌ها&lt;/h2&gt;
 
 &lt;p&gt;برای شروع کردن یک سرویس systemd باید از دستور &lt;code&gt;start&lt;/code&gt;
 استفاده کنیم.&lt;/p&gt;
@@ -860,7 +858,7 @@ unused devices: &amp;lt;none&amp;gt;
 &lt;pre&gt;&lt;code&gt;systemctl stop APPLICATION.service
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2&gt;بارگذاری و راه اندازی مجدد سرویس‌ها&lt;/h2&gt;
+&lt;h2 id=&quot;بارگذاری_و_راه_اندازی_مجدد_سرویس‌ها&quot;&gt;بارگذاری و راه اندازی مجدد سرویس‌ها&lt;/h2&gt;
 
 &lt;p&gt;در صورتی که سرویسی را شروع کردید و اکنون می‌خواهید آن را دوباره راه‌اندازی کنید باید از &lt;code&gt;restart&lt;/code&gt; استفاده کنید.&lt;/p&gt;
 
@@ -877,7 +875,7 @@ unused devices: &amp;lt;none&amp;gt;
 &lt;pre&gt;&lt;code&gt;systemctl reload-or-restart APPLICATION.service
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2&gt;فعال و غیر فعال کردن سرویس‌ها&lt;/h2&gt;
+&lt;h2 id=&quot;فعال_و_غیر_فعال_کردن_سرویس‌ها&quot;&gt;فعال و غیر فعال کردن سرویس‌ها&lt;/h2&gt;
 
 &lt;p&gt;در صورتی که سرویس مورد نظر خود را توسط &lt;code&gt;start&lt;/code&gt; شروع کرده باشید، با اولین ریبوت همه آنها به تنظیمات خود بازمی‌گردد و ممکن است اصلا بعد از بارگذاری سیستم اجرا نشوند. در صورتی که می‌خواهید systemd سرویس مورد نظر شما را هنگام بوت به صورت خودکار فعال کند باید از enable استفاده کنید. به این صورت.&lt;/p&gt;
 
@@ -896,7 +894,7 @@ unused devices: &amp;lt;none&amp;gt;
 &lt;pre&gt;&lt;code&gt;systemctl disable nginx.service
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2&gt;وضعیت یک سرویس&lt;/h2&gt;
+&lt;h2 id=&quot;وضعیت_یک_سرویس&quot;&gt;وضعیت یک سرویس&lt;/h2&gt;
 
 &lt;p&gt;در صورتی که می‌خواهید وضعیت یک سرویس را بررسی کنید (برای مثال مطمئن شوید که سرویس شروع و یا متوقف شده است و یا چند خط اول لاگ را بررسی کنید) میتوانید از &lt;code&gt;status&lt;/code&gt; استفاده نمایید.&lt;/p&gt;
 
@@ -1085,8 +1083,8 @@ CGroup: /system.slice/nginx.service
 
 &lt;p&gt;برای مثال:&lt;/p&gt;
 
-&lt;p&gt;subnet 10.1.1.0 netmask 255.255.255.0 {   &lt;br /&gt;
-        range 10.1.1.3 10.1.1.254;   &lt;br /&gt;
+&lt;p&gt;subnet 10.1.1.0 netmask 255.255.255.0 {   &lt;br&gt;
+        range 10.1.1.3 10.1.1.254;   &lt;br&gt;
     }  &lt;/p&gt;
 
 &lt;p&gt;که در اینجا ما یک subnet با آدرس شبکه &lt;code&gt;10.10.10.0&lt;/code&gt; و mask با آدرس &lt;code&gt;255.255.255.0&lt;/code&gt; تعریف نموده‌ایم. همچنین توسط عبارت range می‌توانیم رنج آدرس‌های IP قابل تخصیص توسط سرویس دهنده را مشخص نمایید که در مثال بالا از آدرس &lt;code&gt;10.1.1.3&lt;/code&gt; الی &lt;code&gt;10.1.1.254&lt;/code&gt; قابل ارایه در این subnet است.&lt;/p&gt;

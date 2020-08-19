@@ -25,7 +25,7 @@ logo: /static/img/mira.png
 permalink: :year/:month/:day/:title/
 
 ## Build settings
-default_markup: markdown
+default_markup: markmod
 
 post_num: 3
 archive_post_num: 10

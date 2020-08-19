@@ -16,7 +16,7 @@
 
 &lt;p&gt;قاعده استفاده از آن به این شکل است:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{{ img addres/image.jpg [alt] [title] }}
+&lt;pre&gt;&lt;code&gt;\{{ img addres/image.jpg [alt] [title] }}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -48,7 +48,7 @@ ftp://
 
 &lt;p&gt;در صورتیکه img را به این صورت نوشته باشید&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{{ img http://addres.com/image.jpg [image alt] [image title] }}
+&lt;pre&gt;&lt;code&gt;\{{ img http://addres.com/image.jpg [image alt] [image title] }}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;با این کد html برابر خواهد بود:&lt;/p&gt;
@@ -59,9 +59,9 @@ ftp://
 &lt;p&gt;اگر میخواهید پارسر عمل نکند یک \ قبل از } ابتدایی قرار دهید&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;اگر در بدنه پست بنویسید
-\{{ img ... }}
+\\{{ img ... }}
 نشان داده خواهد شد:
-{{ img ... }}
+\{{ img ... }}
 &lt;/code&gt;&lt;/pre&gt;</description>
           <pubDate>2017-02-25 23:22:09</pubDate>
           <link>/guide-fa/img-parser/</link>
